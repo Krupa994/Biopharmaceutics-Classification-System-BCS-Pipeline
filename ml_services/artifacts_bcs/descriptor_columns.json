@@ -1,0 +1,52 @@
+{
+  "descriptor_cols": [
+    "MolWt",
+    "HeavyAtomCount",
+    "NumRotatableBonds",
+    "TPSA",
+    "LabuteASA",
+    "MolLogP",
+    "MolMR",
+    "FractionCSP3",
+    "NumHDonors",
+    "NumHAcceptors",
+    "RingCount",
+    "QED",
+    "BalabanJ",
+    "BertzCT",
+    "Ipc",
+    "FormalCharge",
+    "RadicalElectrons",
+    "logS"
+  ],
+  "continuous_features": [
+    "MolWt",
+    "LabuteASA",
+    "MolLogP",
+    "MolMR",
+    "FractionCSP3",
+    "BalabanJ",
+    "BertzCT",
+    "Ipc",
+    "TPSA",
+    "logS"
+  ],
+  "count_features": [
+    "HeavyAtomCount",
+    "NumRotatableBonds",
+    "NumHAcceptors",
+    "NumHDonors",
+    "RingCount",
+    "FormalCharge",
+    "RadicalElectrons"
+  ],
+  "qed_feature": [
+    "QED"
+  ],
+  "labels": [
+    "I",
+    "II",
+    "III",
+    "IV"
+  ]
+}
